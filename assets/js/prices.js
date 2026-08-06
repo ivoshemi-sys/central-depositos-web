@@ -4,11 +4,11 @@
    NOTA: confirmar "TN-M $145.000" (no incluido aún) y centavos exactos. */
 var CDD = window.CDD = window.CDD || {};
 
-CDD.wa = '5491128449907'; // WhatsApp
+CDD.wa = '5491128449907'; // WhatsApp general (Palermo)
 
 CDD.sucursales = {
-  palermo:  { id:'palermo',  nombre:'Palermo',        dir:'Concepción Arenal 2630', tel:'541147792424' },
-  urquiza:  { id:'urquiza',  nombre:'Villa Urquiza',  dir:'14 de Julio 554',        tel:'541145524727' }
+  palermo:  { id:'palermo',  nombre:'Palermo',        dir:'Concepción Arenal 2630', tel:'541147792424', wa:'5491128449907', waDisplay:'+54 9 11 2844-9907' },
+  urquiza:  { id:'urquiza',  nombre:'Villa Urquiza',  dir:'14 de Julio 554',        tel:'541145524727', wa:'5491123808157', waDisplay:'+54 9 11 2380-8157' }
 };
 
 /* Cada tamaño: m3, dimensiones, para qué sirve, y precio por nivel y sucursal.

@@ -39,7 +39,12 @@
       var tel=(d.get('telefono')||'').trim(); if(tel) lines.push('Teléfono: '+tel);
       var suc=d.get('sucursal')||''; if(suc) lines.push('Sucursal de interés: '+suc);
       var msg=(d.get('mensaje')||'').trim(); if(msg) lines.push('Mensaje: '+msg);
-      window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(lines.join('\n')),'_blank','noopener');
+      var waNum = WA;
+      if (window.CDD){
+        var key = /urquiza/i.test(suc) ? 'urquiza' : (/palermo/i.test(suc) ? 'palermo' : null);
+        if (key && CDD.sucursales[key]) waNum = CDD.sucursales[key].wa;
+      }
+      window.open('https://wa.me/'+waNum+'?text='+encodeURIComponent(lines.join('\n')),'_blank','noopener');
       form.reset();
     });
   }

@@ -250,7 +250,8 @@
         ];
         if(fecha) lines.push('Ingreso estimado: '+fecha);
         lines.push('(Entiendo que queda sujeta a confirmación del local.)');
-        window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(lines.join('\n')),'_blank','noopener');
+        var waNum = (CDD.sucursales[state.suc] && CDD.sucursales[state.suc].wa) || WA;
+        window.open('https://wa.me/'+waNum+'?text='+encodeURIComponent(lines.join('\n')),'_blank','noopener');
       });
     }
   }

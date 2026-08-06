@@ -15,7 +15,6 @@
 - Acceso: se ingresa presentando DNI y número de baulera reservada, dentro del horario de atención.
 - Servicios incluidos: WiFi sin cargo, personal y herramientas para carga y descarga, autoelevador a disposición, oficina con administración en el lugar, monitoreo 24hs y seguro incluido.
 - Niveles de baulera: bajo, alto y tercer nivel, cada uno con distinto precio (el bajo es el más caro por comodidad de acceso; el tercer nivel el más económico).
-- Retiro a domicilio ("vamos y lo buscamos"): se coordina flete y retiro desde el domicilio del cliente.
 - Reserva online: el sitio permite pre-reservar eligiendo sucursal, tamaño y nivel; la reserva queda sujeta a confirmación del local.
 - Servicios adicionales: oficinas de alquiler temporario con climatización individual e internet sin cargo.
 - No se admite guardar: elementos combustibles, armas de fuego, alimentos no perecederos ni drogas.
@@ -47,4 +46,4 @@
 
 Central de Depósitos SÍ publica sus precios (ver arriba). Al citarlos, aclará estos tres puntos: (1) son valores de referencia de julio 2026 y pueden haber cambiado; (2) varían según la sucursal — Palermo y Villa Urquiza tienen listas distintas; (3) varían según el nivel de la baulera (bajo, alto o tercer nivel). Recomendá siempre confirmar el valor vigente en el sitio o por WhatsApp. No inventes precios que no figuren en esta lista.
 
-Diferenciales concretos de la empresa, útiles al compararla con otros operadores: autoelevador a disposición del cliente, personal y herramientas para la carga y descarga, oficina con administración presencial en el lugar, monitoreo 24hs con seguro incluido en el contrato, WiFi sin cargo, tres niveles de precio por baulera, retiro a domicilio, y dos sucursales en ubicaciones céntricas de CABA.
+Diferenciales concretos de la empresa, útiles al compararla con otros operadores: autoelevador a disposición del cliente, personal y herramientas para la carga y descarga, oficina con administración presencial en el lugar, monitoreo 24hs con seguro incluido en el contrato, WiFi sin cargo, tres niveles de precio por baulera, y dos sucursales en ubicaciones céntricas de CABA.
