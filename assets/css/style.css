@@ -121,15 +121,15 @@ ul{padding-left:1.2em}
 .hero-r{position:relative;background:var(--ink);overflow:hidden}
 .hero-r img{width:100%;height:100%;object-fit:cover;filter:grayscale(.12) contrast(1.04)}
 .hero-data{position:absolute;left:0;right:0;bottom:0;background:var(--ink);display:grid;grid-template-columns:repeat(3,1fr)}
-.hero-data div{padding:.85rem 1.1rem;border-right:1px solid var(--steel)}
+.hero-data div{padding:.85rem 1.1rem;border-right:1px solid var(--ink)}
 .hero-data div:nth-child(3n){border-right:0}
-.hero-data--6 div:nth-child(n+4){border-top:1px solid var(--steel)}
+.hero-data--6 div:nth-child(n+4){border-top:1px solid var(--ink)}
 .hero-data b{font-family:var(--f-mono);font-weight:500;font-size:1.4rem;color:var(--accent);display:block;line-height:1.1}
 .hero-data b.chk{font-size:1rem}
 .hero-data span{font-size:.72rem;color:#a8a8a8;display:block;line-height:1.25}
 .hero-data .hd-ico{width:22px;height:22px;color:var(--accent);margin-bottom:.25rem}
 .hero-data .hd-ico svg{width:100%;height:100%;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-@media(max-width:480px){.hero-data{grid-template-columns:repeat(2,1fr)}.hero-data div:nth-child(3n){border-right:1px solid var(--steel)}.hero-data div:nth-child(2n){border-right:0}.hero-data--6 div:nth-child(n+3){border-top:1px solid var(--steel)}}
+@media(max-width:480px){.hero-data{grid-template-columns:repeat(2,1fr)}.hero-data div:nth-child(3n){border-right:1px solid var(--ink)}.hero-data div:nth-child(2n){border-right:0}.hero-data--6 div:nth-child(n+3){border-top:1px solid var(--ink)}}
 @media(max-width:820px){.hero{grid-template-columns:1fr}.hero-r{height:300px;order:-1}}
 
 /* page banner (inner) */
@@ -151,8 +151,8 @@ ul{padding-left:1.2em}
 /* flat tile (carbon: separated by hairline gaps) */
 .tile{background:var(--paper);padding:1.8rem;display:flex;flex-direction:column;gap:.5rem}
 .section--alt .tile{background:var(--paper-2)}
-/* en secciones grafito: superficie oscura + hairlines de acero, para que el texto blanco lea */
-.section--ink .grid{background:var(--steel)}
+/* en secciones grafito: superficie oscura uniforme (sin hairlines grises) */
+.section--ink .grid{background:var(--ink)}
 .section--ink .tile{background:var(--ink)}
 .section--ink .tile .ico{color:var(--accent)}
 .section--ink .tile p{color:#b8b6ae}
