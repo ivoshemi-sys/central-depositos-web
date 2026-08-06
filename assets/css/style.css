@@ -171,9 +171,11 @@ ul{padding-left:1.2em}
 
 /* split */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
-.split img{width:100%}
+.split img{width:100%;height:auto}
 @media(max-width:860px){.split{grid-template-columns:1fr;gap:2rem}}
 .split-media{position:relative}
+.split-media img{height:auto;width:auto;max-width:100%;max-height:560px}
+@media(max-width:860px){.split-media img{width:100%;max-height:none}}
 .split-badge{position:absolute;bottom:0;left:0;background:var(--accent);color:var(--ink);
   padding:.8rem 1.1rem;font-family:var(--f-mono);font-weight:500;line-height:1.1}
 .split-badge small{display:block;font-size:.66rem;text-transform:uppercase;letter-spacing:.08em;color:var(--accent-ink)}
@@ -283,7 +285,7 @@ ul{padding-left:1.2em}
 .wa-float:hover{transform:translateY(-2px)}
 .wa-float svg{width:20px;height:20px;flex-shrink:0}
 .wa-float small{display:block;font-size:.62rem;font-weight:400;opacity:.85;line-height:1}
-@media(max-width:600px){.wa-float .lbl{display:none}.wa-float{padding:.8em}}
+@media(max-width:600px){.wa-float{padding:.6em .9em}.wa-float .lbl{font-size:0;line-height:0}.wa-float .lbl small{display:block;font-size:.66rem;font-weight:600;opacity:1;line-height:1.05}}
 /* dos botones de WhatsApp en el header: se ocultan en mobile (quedan el float + los del contenido) */
 @media(max-width:920px){.header-wa{display:none}}
 
