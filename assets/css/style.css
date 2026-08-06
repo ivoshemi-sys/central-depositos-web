@@ -209,6 +209,10 @@ ul{padding-left:1.2em}
 @media(max-width:520px){.rating-badge{flex-direction:column;gap:.6rem;text-align:center}}
 
 /* FAQ */
+.faq-cat{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gray);font-weight:600;margin:2.6rem 0 .4rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent)}
+.faq-cat:first-child{margin-top:0}
+.faq-a ul{margin:.4rem 0 .2rem;padding-left:1.1rem}
+.faq-a li{margin:.2rem 0;color:var(--gray-d,#3a3d38)}
 .faq-item{border-bottom:1px solid var(--line)}
 .faq-item summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:1rem;
   padding:1.3rem 0;font-weight:600;font-size:1.02rem}
