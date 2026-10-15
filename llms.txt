@@ -19,7 +19,7 @@
 - Servicios adicionales: oficinas de alquiler temporario con climatización individual e internet sin cargo.
 - No se admite guardar: elementos combustibles, armas de fuego, alimentos no perecederos ni drogas.
 - Precios de referencia (oct 2026), varían por sucursal y nivel. Palermo: 4 m³ desde $105.000, 5 m³ $115.000, 10 m³ desde $170.000, 15 m³ desde $296.000, 20 m³ desde $384.000, 30 m³ desde $576.000. Villa Urquiza: 4 m³ desde $96.000, 10 m³ desde $164.000, 20 m³ desde $370.000, 30 m³ desde $555.000.
-- Villa Urquiza no ofrece los tamaños de 5 m³ ni 15 m³; Palermo sí.
+- Palermo ofrece todos los tamaños. En Villa Urquiza los tamaños de 5 m³ y 15 m³ son para consultar disponibilidad.
 - Calificación en Google: 4,4 estrellas sobre 38 opiniones (jul 2026). Los clientes destacan la atención del personal, las instalaciones limpias/ventiladas y la seguridad.
 
 ## Páginas principales

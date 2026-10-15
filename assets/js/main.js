@@ -62,7 +62,7 @@
         var lv = card.querySelector('[data-levels]');
         if (desde==null){
           card.setAttribute('data-unavailable','');
-          if(el) el.innerHTML = '<span class="na">No disponible en '+CDD.sucursales[suc].nombre+'</span>';
+          if(el) el.innerHTML = '<span class="na">Consultar disponibilidad</span>';
           if(lv) lv.innerHTML = '';
           if(btn){ btn.style.display='none'; }
         } else {
