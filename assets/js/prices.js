@@ -1,6 +1,6 @@
 /* Central de Depósitos — precios y catálogo de bauleras
    ÚNICO lugar para editar precios. Todas las páginas y el flujo de reserva lo consumen.
-   Valores leídos de la lista de precios (jul 2026). Niveles: baja / alta / tercer.
+   Valores leídos de la lista de precios (oct 2026). Niveles: baja / alta / tercer.
    NOTA: confirmar "TN-M $145.000" (no incluido aún) y centavos exactos. */
 var CDD = window.CDD = window.CDD || {};
 
@@ -17,32 +17,32 @@ CDD.bauleras = [
   { id:'4', box:{w:1.6, d:1.6, h:1.6},  m3:4,  label:'4 m³',  nombre:'Chica',
     dims:'1,60 × 1,60 × 1,60 m', usoCorto:'Cajas, bolsos y valijas',
     uso:'Ideal para artículos medianos, cajas, bolsos, valijas o el guardado de un ambiente chico.',
-    niveles:{ baja:{palermo:96000, urquiza:90000}, alta:{palermo:96000, urquiza:90000} } },
+    niveles:{ baja:{palermo:105000, urquiza:96000}, alta:{palermo:105000, urquiza:96000} } },
 
   { id:'5', box:{w:1.6, d:2.0, h:1.6},  m3:5,  label:'5 m³',  nombre:'Chica Plus',
     dims:'Referencia estimativa', usoCorto:'Ambiente chico con margen',
     uso:'Un poco más de aire que la de 4 m³, para que las cosas entren cómodas y puedas moverte adentro.',
-    niveles:{ baja:{palermo:106000, urquiza:null}, alta:{palermo:106000, urquiza:null} } },
+    niveles:{ baja:{palermo:115000, urquiza:null}, alta:{palermo:115000, urquiza:null} } },
 
   { id:'10', box:{w:1.6, d:3.2, h:2.0}, m3:10, nombre:'Standard', label:'10 m³',
     dims:'1,60 × 2,00 × 3,20 m', usoCorto:'Depto de 2 a 3 ambientes',
     uso:'El tamaño más elegido: entra cómodo un departamento de 2 o 3 ambientes con muebles.',
-    niveles:{ baja:{palermo:195000, urquiza:195000}, alta:{palermo:175000, urquiza:175000}, tercer:{palermo:155000, urquiza:155000} } },
+    niveles:{ baja:{palermo:214000, urquiza:206000}, alta:{palermo:192000, urquiza:185000}, tercer:{palermo:170000, urquiza:164000} } },
 
   { id:'15', box:{w:2.4, d:3.2, h:2.0}, m3:15, nombre:'Standard Plus', label:'15 m³',
     dims:'Referencia estimativa', usoCorto:'Depto de 3 ambientes holgado',
     uso:'Para un 3 ambientes con lugar de sobra, o un 2/3 ambientes al que se le suman cosas con el tiempo.',
-    niveles:{ baja:{palermo:290000, urquiza:null}, alta:{palermo:270000, urquiza:null} } },
+    niveles:{ baja:{palermo:319000, urquiza:null}, alta:{palermo:296000, urquiza:null} } },
 
   { id:'20', box:{w:3.0, d:3.2, h:2.0}, m3:20, nombre:'Doble Standard', label:'20 m³',
     dims:'3,00 × 2,00 × 3,20 m', usoCorto:'Depto de 3 a 4 ambientes',
     uso:'Un departamento grande o casa chica completa, o stock de un comercio.',
-    niveles:{ baja:{palermo:390000, urquiza:390000}, alta:{palermo:350000, urquiza:350000} } },
+    niveles:{ baja:{palermo:428000, urquiza:412000}, alta:{palermo:384000, urquiza:370000} } },
 
   { id:'30', box:{w:4.7, d:3.2, h:2.0}, m3:30, nombre:'Triple Standard', label:'30 m³',
     dims:'Referencia estimativa', usoCorto:'Casa de 4 a 5 ambientes',
     uso:'Para una casa entera de 4 o 5 ambientes, o volumen de mercadería de empresa.',
-    niveles:{ baja:{palermo:585000, urquiza:585000}, alta:{palermo:525000, urquiza:525000} } }
+    niveles:{ baja:{palermo:642000, urquiza:618000}, alta:{palermo:576000, urquiza:555000} } }
 ];
 
 CDD.nivelLabel = { baja:'Nivel bajo', alta:'Nivel alto', tercer:'Tercer nivel' };

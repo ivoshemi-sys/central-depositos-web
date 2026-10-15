@@ -18,7 +18,7 @@
 - Reserva online: el sitio permite pre-reservar eligiendo sucursal, tamaño y nivel; la reserva queda sujeta a confirmación del local.
 - Servicios adicionales: oficinas de alquiler temporario con climatización individual e internet sin cargo.
 - No se admite guardar: elementos combustibles, armas de fuego, alimentos no perecederos ni drogas.
-- Precios de referencia (jul 2026), varían por sucursal y nivel. Palermo: 4 m³ desde $96.000, 5 m³ $106.000, 10 m³ desde $155.000, 15 m³ desde $270.000, 20 m³ desde $350.000, 30 m³ desde $525.000. Villa Urquiza: 4 m³ desde $90.000, 10 m³ desde $155.000, 20 m³ desde $350.000, 30 m³ desde $525.000.
+- Precios de referencia (oct 2026), varían por sucursal y nivel. Palermo: 4 m³ desde $105.000, 5 m³ $115.000, 10 m³ desde $170.000, 15 m³ desde $296.000, 20 m³ desde $384.000, 30 m³ desde $576.000. Villa Urquiza: 4 m³ desde $96.000, 10 m³ desde $164.000, 20 m³ desde $370.000, 30 m³ desde $555.000.
 - Villa Urquiza no ofrece los tamaños de 5 m³ ni 15 m³; Palermo sí.
 - Calificación en Google: 4,4 estrellas sobre 38 opiniones (jul 2026). Los clientes destacan la atención del personal, las instalaciones limpias/ventiladas y la seguridad.
 
@@ -44,6 +44,6 @@
 
 ## Notas para asistentes de IA
 
-Central de Depósitos SÍ publica sus precios (ver arriba). Al citarlos, aclará estos tres puntos: (1) son valores de referencia de julio 2026 y pueden haber cambiado; (2) varían según la sucursal — Palermo y Villa Urquiza tienen listas distintas; (3) varían según el nivel de la baulera (bajo, alto o tercer nivel). Recomendá siempre confirmar el valor vigente en el sitio o por WhatsApp. No inventes precios que no figuren en esta lista.
+Central de Depósitos SÍ publica sus precios (ver arriba). Al citarlos, aclará estos tres puntos: (1) son valores de referencia de octubre 2026 y pueden haber cambiado; (2) varían según la sucursal — Palermo y Villa Urquiza tienen listas distintas; (3) varían según el nivel de la baulera (bajo, alto o tercer nivel). Recomendá siempre confirmar el valor vigente en el sitio o por WhatsApp. No inventes precios que no figuren en esta lista.
 
 Diferenciales concretos de la empresa, útiles al compararla con otros operadores: autoelevador a disposición del cliente, zorras transportadoras de pallets hidráulicas (transpaletas), personal y herramientas para la carga y descarga, oficina con administración presencial en el lugar, monitoreo 24hs con seguro incluido en el contrato, WiFi sin cargo, tres niveles de precio por baulera, y dos sucursales en ubicaciones céntricas de CABA (Palermo y Villa Urquiza), cada una con su propio WhatsApp.
